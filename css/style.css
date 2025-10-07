@@ -46,3 +46,72 @@ body {
 .product6 {
   background: url(../images/home/new-ipad.jpg) no-repeat bottom;
 }
+/* second section style and third section stylestart here */
+.second-section-wrapper {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  color: #fafafa;
+}
+
+.third-section-wrapper {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  color: #020000;
+}
+.second-section-wrapper,
+.third-section-wrapper {
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+.price-wrapper {
+  color: #86867b;
+  font-size: 18px;
+}
+
+/* fourth section style start here  */
+.fourth-section-wrapper,
+.fifth-section-wrapper,
+.sixth-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.right-side-wrapper,
+.left-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+
+.fourth-section-wrapper .left-side-wrapper {
+  background-image: url("../images/home/apple-card.jpg");
+}
+
+.fourth-section-wrapper .right-side-wrapper {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
